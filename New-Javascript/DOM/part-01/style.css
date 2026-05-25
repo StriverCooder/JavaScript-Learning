@@ -1,0 +1,16 @@
+h1{
+    background-color: black;
+    color: red;
+}
+
+p{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    border: 5px solid blue;
+    scale: 0.5;
+    transition: all linear 0.5s;
+    border-radius: 10px;
+}

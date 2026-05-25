@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background-color: red;
+    max-width: 35rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(79, 73, 73);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 20px;
+}
+
+.addContainer{
+    display: flex;
+    width: 100%;
+}
+
+.addContainer > input{
+    padding: 10px;
+    border: 1px solid rgb(65, 61, 61);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.container{
+    width: 100%;
+    background-color: white;
+    max-width: 35rem;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 20px;
+    box-shadow: 0 0 10px rgb(90, 87, 87);
+    border-radius: 10px;
+}
+
+#searchInput{
+    padding: 12px 10px;
+    width: 100%;
+    border: 1px solid rgb(45, 42, 42);
+    border-radius: 5px;
+}
+
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.heading{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.userItem {
+    display: flex;
+    align-items: center;   /* vertically center karega */
+    gap: 12px;             /* image aur text ke beech space */
+    
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+.userItem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    /* round image */
+    object-fit: cover;
+}
+
+.userItem div {
+    display: flex;
+    flex-direction: column;  /* name upar, email neeche */
+}
+
+.userItem h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.userItem p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.userItem div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
